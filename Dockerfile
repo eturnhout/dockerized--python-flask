@@ -11,4 +11,4 @@ echo "/var/www/flask/dev" >> /bin/dev && chmod +x /bin/dev
 RUN pip install --no-cache -r requirements.txt
 COPY ./app ./app
 
-CMD [ "./prod", "./dev" ]
+CMD [ "./dev", "./prod" ]
