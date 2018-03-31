@@ -17,4 +17,4 @@ To run the image in "dev" mode execute the following command.
 Now you kan edit the code under app and should see the result under <a href="http://localhost:8000" target="_blank">localhost:8000</a>.  
 When your app is done and you want to use apache to serve it use run the container with the following command.
 
-```` docker run --name flask-prod -p 80:80 -d flask ````
+```` docker run --name flask-prod -p 80:80 -d flask ./prod ````
